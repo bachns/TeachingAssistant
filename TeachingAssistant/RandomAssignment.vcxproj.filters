@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="DAL">
+      <UniqueIdentifier>{e1fd3ffc-b067-42b8-8cc1-f17d31043dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DTO">
+      <UniqueIdentifier>{396ee7e2-9396-49f6-a1f0-20e498c74ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget">
+      <UniqueIdentifier>{e9d59491-bf36-46da-839d-02aec1f35fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{1e38b517-59fe-4d4b-ada2-8839f78e7f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f00074bd-6693-4ebd-b9ef-671623c1484a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQL">
+      <UniqueIdentifier>{d1c208a9-9da9-49af-af8e-49c63f15f312}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Student.cpp">
+      <Filter>DTO</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentModel.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="Exam.cpp">
+      <Filter>DTO</Filter>
+    </ClCompile>
+    <ClCompile Include="ExamModel.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentExam.cpp">
+      <Filter>DTO</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentExamModel.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentWidget.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Vietnamese.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ExamWidget.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWidget.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseConnection.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment.cpp">
+      <Filter>DTO</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignmentModel.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="StudentWidget.h">
+      <Filter>Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="ExamWidget.h">
+      <Filter>Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="HomeWidget.h">
+      <Filter>Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Main</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="StudentWidget.ui">
+      <Filter>Widget</Filter>
+    </QtUic>
+    <QtUic Include="ExamWidget.ui">
+      <Filter>Widget</Filter>
+    </QtUic>
+    <QtUic Include="HomeWidget.ui">
+      <Filter>Widget</Filter>
+    </QtUic>
+    <QtUic Include="MainWindow.ui">
+      <Filter>Main</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Student.h">
+      <Filter>DTO</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentModel.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Exam.h">
+      <Filter>DTO</Filter>
+    </ClInclude>
+    <ClInclude Include="ExamModel.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentExam.h">
+      <Filter>DTO</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentExamModel.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Vietnamese.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseConnection.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment.h">
+      <Filter>DTO</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignmentModel.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="initdb.sql">
+      <Filter>SQL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="TeachingAssistant.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

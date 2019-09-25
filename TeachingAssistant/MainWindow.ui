@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowClass</class>
+ <widget class="QMainWindow" name="MainWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Phân công ngẫu nhiên</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="TeachingAssistant.qrc">
+    <normaloff>:/Resources/idea.svg</normaloff>:/Resources/idea.svg</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <widget class="HomeWidget" name="homeWidget"/>
+      <widget class="StudentWidget" name="studentWidget"/>
+      <widget class="ExamWidget" name="examWidget"/>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="homeBtn">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="TeachingAssistant.qrc">
+          <normaloff>:/Resources/idea.svg</normaloff>:/Resources/idea.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="stuBtn">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="TeachingAssistant.qrc">
+          <normaloff>:/Resources/student.svg</normaloff>:/Resources/student.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="examBtn">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="TeachingAssistant.qrc">
+          <normaloff>:/Resources/book.svg</normaloff>:/Resources/book.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>StudentWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">StudentWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ExamWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">ExamWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HomeWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">HomeWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="TeachingAssistant.qrc"/>
+ </resources>
+ <connections/>
+</ui>

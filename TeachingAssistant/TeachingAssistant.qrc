@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/import.svg</file>
+        <file>Resources/apply.svg</file>
+        <file>Resources/cancel.svg</file>
+        <file>Resources/edit.svg</file>
+        <file>Resources/add.svg</file>
+        <file>Resources/remove.svg</file>
+        <file>Resources/book.svg</file>
+        <file>Resources/idea.svg</file>
+        <file>Resources/setting.svg</file>
+        <file>Resources/student.svg</file>
+    </qresource>
+</RCC>
