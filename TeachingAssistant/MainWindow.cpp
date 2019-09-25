@@ -23,7 +23,7 @@
 MainWindow::MainWindow(QWidget* parent)
 	: QMainWindow(parent)
 {
-	DatabaseConnection connector("StudentDB.db");
+	DatabaseConnection connector("local.db");
 	if (!connector.connect())
 	{
 		QMessageBox::critical(this, Vietnamese::str(L"Lỗi kết nối"),
